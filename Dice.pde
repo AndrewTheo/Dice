@@ -58,12 +58,12 @@ class Die //models one single dice cube
   void show()
   {
     count = count + side;
-    //println(count);
+    
     
     if (count > highest)
     {
       highest = count;
-      println(highest);
+      
     }
     
     
