@@ -22,16 +22,16 @@ fill(255,255,255);
 textSize(32);
 
 text("Current Total:" + count,120,525);
-text("Your Highest Total:" + highest,90,555);
+text("Your Highest Total:" + highest,90,575);
 
-text("Highest Possible Total is 54",50,585);
+
  
 }
 
 void mousePressed()
 {
   redraw();
-  //test = test - 150;
+  
   count = 0;
  
 }
