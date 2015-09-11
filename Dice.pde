@@ -66,7 +66,7 @@ class Die //models one single dice cube
       
     }
     
-    
+    int w = 20;
     
     
     fill(255);
@@ -76,50 +76,50 @@ class Die //models one single dice cube
     {
       
       fill(0,0,0);
-      ellipse(myX+50,myY+50,20,20);
+      ellipse(myX+50,myY+50,w,w);
       
     }
     else if(side == 2)
     {
       
       fill(0,0,0);
-      ellipse(myX+25,myY+25,20,20);
-      ellipse(myX+75,myY+75,20,20);
+      ellipse(myX+25,myY+25,w,w);
+      ellipse(myX+75,myY+75,w,w);
     }
     else if(side == 3)
     {
       fill(0,0,0);
-      ellipse(myX+25,myY+25,20,20);
-      ellipse(myX+75,myY+75,20,20);
-      ellipse(myX+50,myY+50,20,20);
+      ellipse(myX+25,myY+25,w,w);
+      ellipse(myX+75,myY+75,w,w);
+      ellipse(myX+50,myY+50,w,w);
     }
     else if (side == 4)
     {
       fill(0,0,0);
-      ellipse(myX+25,myY+75,20,20);
-      ellipse(myX+25,myY+25,20,20);
-      ellipse(myX+75,myY+75,20,20);
-      ellipse(myX+75,myY+25,20,20);
+      ellipse(myX+25,myY+75,w,w);
+      ellipse(myX+25,myY+25,w,w);
+      ellipse(myX+75,myY+75,w,w);
+      ellipse(myX+75,myY+25,w,w);
       
     }
     else if (side == 5)
     {
       fill(0,0,0);
-      ellipse(myX+25,myY+75,20,20);
-      ellipse(myX+25,myY+25,20,20);
-      ellipse(myX+75,myY+75,20,20);
-      ellipse(myX+75,myY+25,20,20);
-      ellipse(myX+50,myY+50,20,20);
+      ellipse(myX+25,myY+75,w,w);
+      ellipse(myX+25,myY+25,w,w);
+      ellipse(myX+75,myY+75,w,w);
+      ellipse(myX+75,myY+25,w,w);
+      ellipse(myX+50,myY+50,w,w);
     }
      else if (side == 6)
     {
       fill(0,0,0);
-      ellipse(myX+25,myY+75,20,20);
-      ellipse(myX+25,myY+25,20,20);
-      ellipse(myX+75,myY+75,20,20);
-      ellipse(myX+75,myY+25,20,20);
-      ellipse(myX+50,myY+25,20,20);
-      ellipse(myX+50,myY+75,20,20);
+      ellipse(myX+25,myY+75,w,w);
+      ellipse(myX+25,myY+25,w,w);
+      ellipse(myX+75,myY+75,w,w);
+      ellipse(myX+75,myY+25,w,w);
+      ellipse(myX+50,myY+25,w,w);
+      ellipse(myX+50,myY+75,w,w);
     }
   }
 }
